@@ -1,0 +1,43 @@
+{
+  "name": "uspto-patent-research",
+  "version": "1.0.0",
+  "description": "Read-only USPTO patent application research, prosecution-history review, and evidence-grounded patent workflow guidance.",
+  "author": {
+    "name": "Mihir Kavishwar",
+    "url": "https://github.com/mihirkavi"
+  },
+  "homepage": "https://github.com/mihirkavi/uspto-patent-research-plugin",
+  "repository": "https://github.com/mihirkavi/uspto-patent-research-plugin",
+  "license": "MIT",
+  "keywords": [
+    "uspto",
+    "patents",
+    "prior-art",
+    "patent-research",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "USPTO Patent Research",
+    "shortDescription": "Research public USPTO application records safely",
+    "longDescription": "Search and inspect public USPTO Patent File Wrapper records through a read-only local MCP server, then use the bundled research workflow to organize prior art, prosecution history, claim-element mappings, and patent disclosures without making legal conclusions.",
+    "developerName": "Mihir Kavishwar",
+    "category": "Research",
+    "capabilities": [
+      "Research",
+      "Analysis",
+      "Read-only USPTO data"
+    ],
+    "websiteURL": "https://github.com/mihirkavi/uspto-patent-research-plugin",
+    "privacyPolicyURL": "https://github.com/mihirkavi/uspto-patent-research-plugin/blob/main/PRIVACY.md",
+    "defaultPrompt": [
+      "Search USPTO records for prior art related to this invention.",
+      "Review the prosecution history for this application.",
+      "Build a claim-element matrix from these references."
+    ],
+    "brandColor": "#1BA5CF",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

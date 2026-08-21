@@ -1,0 +1,20 @@
+{
+  "name": "patent-research",
+  "interface": {
+    "displayName": "Patent Research"
+  },
+  "plugins": [
+    {
+      "name": "uspto-patent-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/uspto-patent-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    }
+  ]
+}

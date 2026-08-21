@@ -1,0 +1,9 @@
+interface:
+  display_name: "USPTO Patent Research"
+  short_description: "Research USPTO records and prior art safely"
+  default_prompt: "Use $uspto-patent-research to research prior art and organize the evidence without making legal conclusions."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#1BA5CF"
+policy:
+  allow_implicit_invocation: true

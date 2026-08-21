@@ -8,7 +8,15 @@ Create or sign in to a USPTO.gov account, satisfy the current ODP account requir
 
 Set the key in your local environment. Do not put the literal key in the MCP config or type it into a command that will be retained in shell history.
 
-macOS/Linux for the current terminal:
+macOS with zsh for the current terminal:
+
+```zsh
+read -s "USPTO_ODP_API_KEY?USPTO ODP API key: "
+export USPTO_ODP_API_KEY
+printf '\n'
+```
+
+With bash on Linux, use:
 
 ```bash
 read -rsp "USPTO ODP API key: " USPTO_ODP_API_KEY

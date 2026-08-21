@@ -28,13 +28,15 @@ codex plugin marketplace add mihirkavi/uspto-patent-research-plugin
 codex plugin add uspto-patent-research@patent-research
 ```
 
-Make the API key available as `USPTO_ODP_API_KEY` before starting Codex. On macOS or Linux, this hidden prompt avoids placing the literal key in shell history:
+Make the API key available as `USPTO_ODP_API_KEY` before starting Codex. On macOS with zsh, this hidden prompt avoids placing the literal key in shell history:
 
-```bash
-read -rsp "USPTO ODP API key: " USPTO_ODP_API_KEY
+```zsh
+read -s "USPTO_ODP_API_KEY?USPTO ODP API key: "
 export USPTO_ODP_API_KEY
 printf '\n'
 ```
+
+With bash on Linux, use `read -rsp "USPTO ODP API key: " USPTO_ODP_API_KEY` followed by the same `export` and `printf` commands.
 
 Restart Codex, open a new task, and check `/mcp` for `uspto_research`. Try:
 

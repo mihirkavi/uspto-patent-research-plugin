@@ -99,3 +99,11 @@ See [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md), and [CONTRIBUTING.md](
 ## License
 
 [MIT](LICENSE)
+
+<!-- project-artwork:start -->
+## Project artwork
+
+![Conceptual artwork for USPTO Patent Research](assets/brand/cover.png)
+
+Conceptual project artwork. [Asset files, design notes, and generation prompts](assets/brand/README.md).
+<!-- project-artwork:end -->

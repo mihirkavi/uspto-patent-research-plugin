@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
-    <img alt="USPTO Patent Research: patent research, straight from the record. Search U.S. patent applications and prosecution history in the USPTO Open Data Portal. Read-only Codex plugin." src=".github/assets/banner-light.png" width="100%">
+    <img alt="USPTO Patent Research: patent research, straight from the record. Search U.S. patent applications and prosecution history in the USPTO Open Data Portal. Read-only Codex plugin. Shown beside a patent-style line drawing, FIG. 1, of a magnifier over a stack of file-wrapper sheets." src=".github/assets/banner-light.png" width="100%">
   </picture>
 </p>
 
@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-111111?style=flat-square"></a>
-  <img alt="Codex plugin, Python standard library" src="https://img.shields.io/badge/Codex%20%C2%B7%20MCP%20%C2%B7%20Python%20stdlib-111111?style=flat-square">
-  <img alt="Read-only" src="https://img.shields.io/badge/access-read--only-6b6b6b?style=flat-square">
-  <a href="https://github.com/mihirkavi/uspto-patent-research-plugin/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mihirkavi/uspto-patent-research-plugin/ci.yml?branch=main&style=flat-square&label=CI&color=111111"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-14233c?style=flat-square"></a>
+  <img alt="Codex plugin, Python standard library" src="https://img.shields.io/badge/Codex%20%C2%B7%20MCP%20%C2%B7%20Python%20stdlib-14233c?style=flat-square">
+  <img alt="Read-only" src="https://img.shields.io/badge/access-read--only-a85f2e?style=flat-square">
+  <a href="https://github.com/mihirkavi/uspto-patent-research-plugin/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mihirkavi/uspto-patent-research-plugin/ci.yml?branch=main&style=flat-square&label=CI&color=14233c"></a>
 </p>
 
 > [!IMPORTANT]
@@ -42,15 +42,15 @@ Early patent work means digging through application records: what was filed, how
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🔒 Read-only by design</h3>
+      <h3>Read-only by design</h3>
       Only HTTP <code>GET</code> requests to <code>api.uspto.gov</code>, with redirects pinned to that host. No filing, payment, signing or account tools exist.
     </td>
     <td width="33%" valign="top">
-      <h3>📂 The whole file wrapper</h3>
+      <h3>The whole file wrapper</h3>
       Search, metadata, continuity, foreign priority, prosecution transactions, document lists and recorded assignments.
     </td>
     <td width="33%" valign="top">
-      <h3>🧩 Zero dependencies</h3>
+      <h3>Zero dependencies</h3>
       One Python 3.10+ file using only the standard library. Your API key stays in your local environment.
     </td>
   </tr>

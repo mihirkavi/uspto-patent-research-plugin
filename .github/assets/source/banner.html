@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+:root{--bg:#f4eedf;--ink:#14233c;--muted:#56607a;--copper:#a85f2e;--grid:rgba(20,35,60,.07);--line:#14233c;--lens:#1ba5cf;--fill:#fbf8f0}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1828;--ink:#f1e9d6;--muted:#a9b2c4;--copper:#d68a55;--grid:rgba(120,170,230,.09);--line:#cfe0f5;--lens:#43d0fb;--fill:#13223a}}
+*{box-sizing:border-box;margin:0}
+body{width:1600px;height:600px;background:var(--bg);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px;color:var(--ink);font-family:"Public Sans",sans-serif;position:relative;overflow:hidden}
+.frame{position:absolute;inset:24px;border:1.5px solid var(--line);opacity:.35}
+.copy{position:absolute;left:96px;top:0;height:600px;width:780px;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font:500 17px "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--copper);margin-bottom:22px}
+h1{font:600 78px/1.03 Spectral,serif;letter-spacing:-.015em}
+h1 em{font-style:italic;font-weight:500;color:var(--copper)}
+p{font:400 23px/1.5 "Public Sans",sans-serif;color:var(--muted);margin-top:24px;max-width:660px}
+.meta{margin-top:30px;display:flex;gap:28px;font:500 15px "IBM Plex Mono",monospace;color:var(--ink)}
+.meta span:before{content:"— ";color:var(--copper)}
+svg{position:absolute;left:900px;top:40px}
+.fig{position:absolute;left:1300px;top:528px;font:italic 500 26px Spectral,serif;letter-spacing:.06em}
+</style></head><body>
+<div class="frame"></div>
+<div class="copy">
+  <div class="eyebrow">Read-only · USPTO Open Data Portal</div>
+  <h1>Patent research,<br><em>straight from the record.</em></h1>
+  <p>A Codex plugin that searches U.S. patent applications and follows prosecution history, assignments and continuity.</p>
+  <div class="meta"><span>8 read-only tools</span><span>GET only</span><span>Python stdlib</span></div>
+</div>
+<svg width="640" height="500" viewBox="0 0 640 500" fill="none" stroke="var(--line)" stroke-width="2" font-family="IBM Plex Mono" font-size="17">
+  <!-- stacked file wrapper sheets -->
+  <rect x="150" y="70" width="230" height="300" fill="var(--fill)"/>
+  <rect x="135" y="85" width="230" height="300" fill="var(--fill)"/>
+  <rect x="120" y="100" width="230" height="300" fill="var(--fill)"/>
+  <g stroke-width="1.5" opacity=".6"><line x1="145" y1="140" x2="320" y2="140"/><line x1="145" y1="165" x2="300" y2="165"/><line x1="145" y1="190" x2="325" y2="190"/><line x1="145" y1="215" x2="280" y2="215"/><line x1="145" y1="300" x2="320" y2="300"/><line x1="145" y1="325" x2="290" y2="325"/><line x1="145" y1="350" x2="310" y2="350"/></g>
+  <!-- continuity chain -->
+  <g stroke="var(--copper)"><circle cx="180" cy="258" r="11"/><circle cx="240" cy="258" r="11"/><circle cx="300" cy="258" r="11"/><line x1="191" y1="258" x2="229" y2="258"/><line x1="251" y1="258" x2="289" y2="258"/></g>
+  <!-- magnifier -->
+  <circle cx="400" cy="250" r="78" fill="var(--bg)" fill-opacity=".55" stroke-width="3"/>
+  <circle cx="400" cy="250" r="66" stroke="var(--lens)" stroke-width="2"/>
+  <line x1="456" y1="306" x2="530" y2="380" stroke-width="14" stroke-linecap="round"/>
+  <g stroke="var(--copper)"><circle cx="380" cy="250" r="11"/><line x1="311" y1="258" x2="369" y2="252" stroke-dasharray="5 5"/><rect x="408" y="232" width="34" height="36"/></g>
+  <!-- reference numerals with lead lines -->
+  <g stroke-width="1.2"><path d="M110 60 Q140 70 152 74"/><path d="M80 250 Q120 250 168 256"/><path d="M500 150 Q470 170 452 200"/><path d="M590 400 Q560 390 520 368"/><path d="M80 420 Q100 400 122 392"/></g>
+  <g fill="var(--ink)" stroke="none"><text x="80" y="56">10</text><text x="44" y="256">12</text><text x="504" y="146">14</text><text x="594" y="410">16</text><text x="52" y="436">18</text></g>
+</svg>
+<div class="fig">FIG. 1</div>
+</body></html>
